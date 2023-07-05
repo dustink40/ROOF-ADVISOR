@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/Group 71.png';
+import roofadvisorLogo from '../assets/roofadvisor-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -124,15 +124,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>S-H-E | buildspace </title>
+        <title>ROOF-ADVISOR | buildspace </title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>S-H-E: Decoding the Female Psyche</h1>
+            <h1>ROOF-ADVISOR: Your Personal Roofing Consultant</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Delving into Women's Minds and Enhancing Understanding</h2>
+            <h2>Get professional advice and recommendations for optimal roofing solutions</h2>
           </div>
         </div>
         <audio
@@ -143,7 +143,7 @@ const Home = () => {
         />
         <div className="prompt-container">
           <textarea
-            placeholder="Hello I am  S-H-E, Shall I Fuck with your head?"
+            placeholder="Hello I am  ROOF-ADVISOR, How may I assist you?"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -170,7 +170,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Confuse Me</p>
+                  <p>Get Answer</p>
                 )}
               </div>
             </a>
@@ -206,7 +206,7 @@ const Home = () => {
         <a
           href="https://www.buymeacoffee.com/guttermademedia" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
+            <Image src={roofadvisorLogo} alt="buildspace logo" />
             <p>Help me build this project</p>
           </div>
         </a>

@@ -134,6 +134,7 @@ const Home = () => {
           <div className="header-subtitle">
             <h2>Get professional advice and recommendations for optimal roofing solutions</h2>
           </div>
+          <Image src={roofadvisorLogo} alt="Bullshit" />
         </div>
         <audio
           src={`/kash2.mp3`}
